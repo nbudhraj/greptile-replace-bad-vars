@@ -112,9 +112,7 @@ def get_current_structure(repository_id):
         "messages": [
             {
                 "id": "analysis-1",
-                "content": "find all poorly named variables and come up with better names. "
-                           "Return just an array of tuples, no additional text: "
-                           "(bad variable name, new variable name, filename).",
+                "content": "find all poorly named variables and come up with better names. Return just an array of tuples, no additional text: (bad variable name, new variable name, filename). Return just the array with no additional text, pure array",
                 "role": "user"
             }
         ],
@@ -259,7 +257,7 @@ def main():
     repository_id = index_repository(remote, repository, branch)
     print(repository_id)
     
-    print("Finding poorly named variables and coming up with replacement...")
+    print("Finding poorly named variables and coming up with replacements...")
     suggestions = get_current_structure(repository_id)
 
     vars = json.loads(suggestions)
