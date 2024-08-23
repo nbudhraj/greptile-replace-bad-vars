@@ -5,7 +5,12 @@ In software development, code readability and maintainability are critical for e
 
 ## Solution 
 
-The solution involves developing a Python script that interacts with the Greptile API to automate the process of improving code quality. It first indexes a specified repository and branch to prepare it for analysis. Once indexing is complete, the script queries the API to identify poorly named variables and suggests better names. It then generates a Python script that replaces these variables in the codebase with the suggested names.
+The solution involves developing a Python script that interacts with the Greptile API to automate the process of improving code quality. It first indexes a specified repository and branch to prepare it for analysis. Once indexing is complete, the script queries the API to identify poorly named variables and suggests better names. It then generates a Python script that you would run at the root of your repo that replaces these variables in the codebase with the suggested names.
+
+Input: remote, repo name, branch
+Output: python script
+
+So, essentially a python script that generates another python script :smile:
 
 ## How to run
 
@@ -34,7 +39,7 @@ The solution involves developing a Python script that interacts with the Greptil
   ``` 
 - Replace your_greptile_api_key and your_github_token with your actual Greptile API key and GitHub token.
 
-### Step 4: Run the Script**
+### Step 4: Run the Script
 - To run the script, use the following command:
 
 ```bash
