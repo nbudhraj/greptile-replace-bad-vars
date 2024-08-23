@@ -14,21 +14,17 @@ The solution involves developing a Python script that interacts with the Greptil
 2. **Pip:** Ensure `pip` is installed to manage Python packages.
 3. **Virtual Environment (Optional but recommended):** Create and activate a virtual environment to keep dependencies isolated.
 
-### **Step 1: Clone the Repository
+### Step 1: Clone the Repository
 ```bash
   git clone https://github.com/nbudhraj/greptile-replace-bad-vars.git
 ```
 
-### **Step 2: Install Required Python Packages
+### Step 2: Install Required Python Packages
 ```bash
   pip install -r requirements.txt
 ```
 
-### **Step 3: Set Up Environment Variables
-1. Create a `.env` file in the same directory as the script
-2. Add the following environment variables to the .env file:
-
-### **Step 3: Set Up Environment Variables**
+### Step 3: Set Up Environment Variables**
 - Create a `.env` file in the same directory as the script.
 - Add the following environment variables to the `.env` file:
 
@@ -38,7 +34,7 @@ The solution involves developing a Python script that interacts with the Greptil
   ``` 
 - Replace your_greptile_api_key and your_github_token with your actual Greptile API key and GitHub token.
 
-### **Step 4: Run the Script**
+### Step 4: Run the Script**
 - To run the script, use the following command:
 
 ```bash
@@ -47,13 +43,13 @@ The solution involves developing a Python script that interacts with the Greptil
 
 Note: You may need to modify the prompt to ensure that no additional text is returned when querying. We expect to get back a string we can convert to an array.
 
-### **Step 5: Run the Replacement Script**
+### Step 5: Run the Replacement Script
 - A generated replacement python script will be generated as output 
 - Place this script in the root of your local copy of the remote repository and run it
 
 ## Demo
 (FYI does not run this fast, I edited for brevity LOL)
-<iframe width="560" height="315" src="https://youtu.be/M7Dj3GfaT6A" frameborder="0" allowfullscreen></iframe>
+[![Replace Bad Vars](https://img.youtube.com/vi/M7Dj3GfaT6A/0.jpg)](https://youtu.be/M7Dj3GfaT6A "Replace Bad Vars")
 
 
 
